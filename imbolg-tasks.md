@@ -95,7 +95,7 @@ Get your RPC URL:
 ```bash
 echo $(curl -s -4 ifconfig.me)$PORTR
 ```
-
+Please test this url before submit.
 
 ## Provide snapshots
 
@@ -138,6 +138,8 @@ Get your snapshot URL:
 ```bash
 echo http://$(curl -s -4 ifconfig.me)/testnet/okp4
 ```
+
+Please test this url before submit.
 
 ## Provide dashboard for the OKP4 network
 
