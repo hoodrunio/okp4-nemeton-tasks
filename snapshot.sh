@@ -1,8 +1,8 @@
 #!/bin/bash
 CHAIN_ID="okp4-nemeton-1"
-SNAP_PATH="$HOME/snapshot/testnet/okp4"
-LOG_PATH="$HOME/snapshot/testnet/okp4/log.txt"
-DATA_PATH="$HOME/.okp4d/data/"
+SNAP_PATH="/root/snapshot/testnet/okp4"
+LOG_PATH="/root/snapshot/testnet/okp4/log.txt"
+DATA_PATH="/root/.okp4d/data/"
 SERVICE_NAME="okp4d.service"
 RPC_ADDRESS="http://localhost:26657"
 SNAP_NAME=$(echo "${CHAIN_ID}_$(date '+%Y-%m-%d').tar")
