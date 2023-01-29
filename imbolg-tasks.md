@@ -130,7 +130,6 @@ service nginx restart
 wget https://raw.githubusercontent.com/testnetrunn/okp4-nemeton-tasks/main/snapshot.sh
 
 bash snapshot.sh
-EOF
 ```
 
 Get your snapshot URL:
